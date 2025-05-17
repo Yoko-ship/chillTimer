@@ -1,24 +1,20 @@
-'use client'
-import { useState } from "react"
-import Modal from "./Modal"
-import classes from "@/app/page.module.css"
+"use client";
+import Modal from "./Modal";
+import { makeStore } from "@/store/store";
+import { Provider } from "react-redux";
+import Timer from "./Timer";
 
 function Main() {
-  const [isOpen,setIsOpen] = useState(false)
+  const store = makeStore();
+
   return (
     <main>
-        <Modal isOpen={isOpen} setIsOpen={setIsOpen}/>
-        <section className={classes.timer}>
-          <span onClick={() => setIsOpen(true)}>00:02:00</span>
-          <button className={classes.start}>Start</button>
-          <button className={classes.reset}>Reset</button>
-        </section>
-
-        <section className={classes.ui}>
-        <progress></progress>
-        </section>
+      <Provider store={store}>
+        <Modal/>
+        <Timer/>
+      </Provider>
     </main>
-  )
+  );
 }
 
-export default Main
+export default Main;
