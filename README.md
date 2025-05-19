@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Chill Timer
 
-## Getting Started
+&#x20; &#x20;
 
-First, run the development server:
+## 🚀 Описание проекта
+
+Chill Timer 
+
+## 🎥 Демо
+
+https://chill-timer.vercel.app/
+
+
+
+## 🔧 Установка и запуск
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Клонирование репозитория
+git clone https://github.com/Yoko-ship/chillTimer.git
+cd repository
+
+# Установка зависимостей
+npm install
+
+# Запуск проекта
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Используемые технологии
 
-## Learn More
+- 🟢 React
+- 🎨 Typescript
+- 🖼️ NextJs
+- Gemini AI
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Контрибьюция
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Сделайте **Fork** репозитория
+2. Создайте новую **ветку** (`git checkout -b feature-branch`)
+3. Внесите изменения и **закоммитьте** их (`git commit -m 'Новая фича'`)
+4. Отправьте изменения (`git push origin feature-branch`)
+5. Создайте **Pull Request**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📞 Контакты
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📧 Email: ba4966183@gmail.com\
+💼 Telegram: https://t.me/Rain_All_Day1
