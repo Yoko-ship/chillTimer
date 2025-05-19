@@ -27,6 +27,10 @@ motivation:Молодежный стиль,со кринжом.
     const responseText = response.text?.replaceAll("*","")
     let cleanedText = responseText!.replace(/^```(?:json)?/g, '').trimStart();
     cleanedText = cleanedText.replace(/\s*```\s*$/g,"").trimEnd();
-    const object = JSON.parse(cleanedText)
-    return object
+    try{
+        const object = JSON.parse(cleanedText)
+        return object
+    }catch(err){
+        return {error:"Произошла ошибка с рекомендациями.Пожлуста попробуйте ещё раз."}
+    }
 }

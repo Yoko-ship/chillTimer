@@ -1,0 +1,41 @@
+.notShow{
+    display: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 40%;
+    background-color: #101524;
+    height: 100vh;
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    animation: 1s show ease;
+}
+@keyframes show {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.advice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #445469;
+    padding: 1rem;
+    border-top-right-radius: 10px;
+}
+.advice button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.advice p,.content p{
+    font-size: 1.2rem;
+}
+.content{
+    padding: 1rem;
+}
